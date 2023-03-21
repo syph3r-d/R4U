@@ -1,0 +1,30 @@
+.btn{
+    padding: 3px 15px;
+    border-radius: 20px;
+    font: inherit;
+    border: none;
+    color:white;
+    cursor: pointer;
+    &.btn-alt{
+        background-color: purple;
+
+    }
+    &.btn-alt:hover{
+        background-color: rgb(192, 0, 192);
+
+    }
+    &.btn-blue{
+        background-color: rgb(0, 0, 108);
+
+    }
+    &.btn-blue:hover{
+        background-color: rgb(0, 0, 186);
+
+    }
+}
+
+.text{
+    &-primary{
+        color:rgb(0, 0, 108)
+    }
+}

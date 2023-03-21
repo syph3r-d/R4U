@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  nav {
+    font-size: small;
+    ul {
+      li {
+        margin-left: 0 !important;
+        padding: 3px 3px !important;
+      }
+    }
+  }
+}
