@@ -18,11 +18,15 @@ body {
 nav {
   position: fixed;
   top: 30px;
+  height: 40px;
   width: 100%;
   display: flex;
   justify-content: space-around;
   z-index: 1;
-  color: black;
+  color: rgb(255, 255, 255);
+  img{
+    height: 100%;
+  }
   ul {
     display: flex;
     align-content: center;
@@ -35,10 +39,10 @@ nav {
       transition: all 0.25s ease-in-out;
     }
     li:hover {
-      border: #000000 1px solid;
+      border: #ffffff 1px solid;
     }
     .li-active {
-      border: #000000 1px solid;
+      border: #ffffff 1px solid;
     }
     a {
       text-decoration: none;
@@ -49,16 +53,24 @@ nav {
 
 .main-img {
   display: flex;
-  justify-content: end;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   align-content: center;
   background-attachment: fixed;
-  background-image: url("../img/3817194.jpg");
+  background-image: url("../img/header_background.jpg");
   background-size: cover;
   height: 80vh;
   h1 {
     align-self: center;
-    font-size: xx-large;
-    margin-right: 200px;
+    margin-top: 30px;
+    font-size: 4rem;
+  }
+  img{
+    object-fit: contain;
+    margin-top: 50px;
+    height: 50%;
   }
 }
 
