@@ -34,7 +34,8 @@ nav {
     li {
       margin-left: 20px;
       border: #ffffff00 1px solid;
-      padding: 3px 20px;
+      padding: 0 20px;
+      padding-top: 5px;
       border-radius: 20px;
       transition: all 0.25s ease-in-out;
     }
@@ -91,3 +92,11 @@ nav {
     }
   }
 }
+
+.tabs{
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
