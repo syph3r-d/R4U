@@ -9,7 +9,8 @@ function App() {
   return (
     <Fragment>
       <Navbar />
-      <Articles />
+      <Home/>
+      {/* <Articles /> */}
     </Fragment>
   );
 }
